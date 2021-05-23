@@ -21,6 +21,7 @@ def attack():
             print(already_connected)
 
 
+
 for i in range(500):
     thread = threading.Thread(target=attack())
     thread.start()
